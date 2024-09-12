@@ -21,24 +21,24 @@ while op == " " :
             n1 = int(input("Digite seu primeiro número: "))
             n2 = int(input("Digite outro número: "))
             print(f"O resultado da sua operação é {n1 + n2}.")
-        if op == "2":
+        elif op == "2":
             print("sua operação é subtração.")
             n1 = int(input("Digite seu primeiro número: "))
             n2 = int(input("Digite outro número: "))
             print(f"O resultado da sua operação é {n1 - n2}.")
-        if op == "3":
+        elif op == "3":
             print("sua operação é multiplicação.")
             n1 = int(input("Digite seu primeiro número: "))
             n2 = int(input("Digite outro número: "))
             print(f"O resultado da sua operação é {n1 * n2}.")
-        if op == "4":
+        elif op == "4":
             print("sua operação é divisão.")
             n1 = int(input("Digite seu primeiro número: "))
             n2 = int(input("Digite outro número: "))
             print(f"O resultado da sua operação é {n1 / n2}.")
-        if op == "5":
+        elif op == "5":
             print("sua operação é elevar um número ao quadrado.")
             n1 = int(input("Digite seu número: "))
             print(f"O resultado da sua operação é {n1 * n1}.")
-        if op == "0":
+        else:
             break
