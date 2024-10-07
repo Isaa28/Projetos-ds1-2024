@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(247, 237, 218);
+}
+*{
+    flex-direction: column;
+}
+h1{
+    color: rgb(4, 4, 68);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+h2{
+    text-align: center;
+}
+button{
+    background-color: rgb(4, 4, 68);
+    color: antiquewhite;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
